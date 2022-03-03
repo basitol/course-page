@@ -1,0 +1,118 @@
+.course {
+  padding: 58px 119px 0 121px;
+}
+
+.course--head {
+  font-weight: 600;
+}
+
+.course--link {
+  width: 548px;
+  margin-top: 27px;
+}
+
+.course--link ul li a {
+  position: relative;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.course--link ul li a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: -13px;
+  background: #f78018;
+  border-radius: 50px;
+  opacity: 0;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+
+.course--link ul li a:hover {
+  color: #222;
+  font-weight: 800;
+}
+
+.course--link ul li a:hover::before {
+  opacity: 1;
+}
+
+.course .line {
+  height: 1px;
+  width: 100%;
+  margin-top: 8.5px;
+  background: #e0e0e0;
+  border-radius: 50px;
+}
+
+.course--stsk {
+  height: 65px;
+  width: 100%;
+  margin-top: 12px;
+  padding: 7.6px 20px 12px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.course--stsk .status {
+  margin-right: 200px;
+}
+
+.course--stsk .status .check-box {
+  margin-top: 2px;
+}
+
+.course--stsk .status .check-box input {
+  margin-right: 12.5px;
+  height: 14.248046875px;
+  width: 16.42205810546875px;
+  border-radius: 2px;
+}
+
+.course--stsk .status .check-box label:not(:last-child) {
+  margin-right: 40px;
+}
+
+.course--stsk .skills--con {
+  height: 19px;
+  width: auto;
+  padding: 1px 3px;
+  margin-right: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.course--video-con {
+  margin-top: 31px;
+  gap: 30px;
+}
+
+.course--video-con .video {
+  min-height: 158px;
+  max-width: 580px;
+  height: auto;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 8px 20px rgba(224, 224, 224, 0.5);
+          box-shadow: 0px 8px 20px rgba(224, 224, 224, 0.5);
+  border-radius: 4px;
+}
+
+.course--video-con .video--info {
+  position: relative;
+  padding: 20px 40px 20px 20px;
+}
+
+.course--video-con .video--info .info {
+  margin-top: 7px;
+  font-weight: 800;
+}
+
+.course--video-con .video--info .creator {
+  margin-top: 22px;
+}
+/*# sourceMappingURL=course.css.map */

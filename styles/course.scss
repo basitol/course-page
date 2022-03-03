@@ -1,0 +1,131 @@
+.course {
+  padding: 58px 119px 0 121px;
+
+  &--head {
+    font-weight: 600;
+  }
+
+  &--link {
+    width: 548px;
+    margin-top: 27px;
+
+    ul {
+      li {
+        a {
+          position: relative;
+          transition: color 300ms ease-in-out;
+
+          &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            height: 5px;
+            left: 5px;
+            right: 5px;
+            bottom: -13px;
+            background: #f78018;
+            border-radius: 50px;
+            opacity: 0;
+            transition: opacity 300ms ease-in-out;
+          }
+
+          &:hover {
+            color: #222;
+            font-weight: 800;
+
+            &::before {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .line {
+    height: 1px;
+    width: 100%;
+    margin-top: 8.5px;
+
+    background: #e0e0e0;
+    border-radius: 50px;
+  }
+
+  &--stsk {
+    height: 65px;
+    width: 100%;
+    margin-top: 12px;
+    padding: 7.6px 20px 12px;
+
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+
+    .status {
+      margin-right: 200px;
+
+      .check-box {
+        margin-top: 2px;
+
+        input {
+          margin-right: 12.5px;
+          height: 14.248046875px;
+          width: 16.42205810546875px;
+
+          border-radius: 2px;
+        }
+
+        label {
+          &:not(:last-child) {
+            margin-right: 40px;
+          }
+        }
+      }
+    }
+
+    .skills {
+      &--con {
+        height: 19px;
+        width: auto;
+        padding: 1px 3px;
+        margin-right: 12px;
+
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  &--video-con {
+    margin-top: 31px;
+    gap: 30px;
+
+    .video {
+      min-height: 158px;
+      max-width: 580px;
+      height: auto;
+
+      background: #ffffff;
+      box-shadow: 0px 8px 20px rgba(224, 224, 224, 0.5);
+      border-radius: 4px;
+
+      .thumbnail {
+      }
+
+      &--info {
+        position: relative;
+        padding: 20px 40px 20px 20px;
+
+        .info {
+          margin-top: 7px;
+
+          font-weight: 800;
+        }
+
+        .creator {
+          margin-top: 22px;
+        }
+      }
+    }
+  }
+}

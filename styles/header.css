@@ -1,0 +1,82 @@
+header nav {
+  height: 80px;
+  width: 100%;
+  padding: 11px 110px 16px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+}
+
+header nav .nav-links {
+  width: 145px;
+  margin-top: 18px;
+}
+
+header nav .search-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 9px;
+  background: #ffffff;
+  border: 1px solid #dadada;
+  border-radius: 4px;
+}
+
+header nav .search-field input {
+  padding: 11px 0 11px 14px;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+header nav .search-field .icon img {
+  padding: 12px 18px 11px;
+}
+
+header nav .cl-us {
+  width: 210px;
+}
+
+header nav .cl-us .course-list {
+  margin-top: 18px;
+}
+
+header nav .cl-us .user {
+  margin-top: 13px;
+}
+
+header nav .cl-us .user .wishlist {
+  position: relative;
+  margin: 7px 10px 0;
+}
+
+header nav .cl-us .user .wishlist .no-fav {
+  position: absolute;
+  top: -5px;
+  right: -3px;
+  width: 10px;
+  height: 10px;
+  font-size: 7px;
+  text-align: center;
+  background: #188ff7;
+  color: #ffffff;
+  border-radius: 50%;
+}
+
+header nav .cl-us .user .cart {
+  position: relative;
+  margin: 7px 10px 0 0;
+}
+
+header nav .cl-us .user .cart .order-list {
+  position: absolute;
+  top: -5px;
+  right: -3px;
+  width: 10px;
+  height: 10px;
+  font-size: 7px;
+  text-align: center;
+  background: #188ff7;
+  color: #ffffff;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=header.css.map */

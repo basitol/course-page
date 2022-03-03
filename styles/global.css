@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-jc-sa {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.txt-sm {
+  font-size: 10px;
+}
+
+.txt-md {
+  font-size: 12px;
+}
+
+.txt-lg {
+  font-size: 14px;
+}
+
+.txt-xl {
+  font-size: 16px;
+}
+
+.txt-xlg {
+  font-size: 24px;
+}
+
+.col-bl {
+  color: #222222;
+}
+
+.col-lb {
+  color: #188ff7;
+}
+/*# sourceMappingURL=global.css.map */

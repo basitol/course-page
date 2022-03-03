@@ -1,0 +1,91 @@
+header {
+  nav {
+    height: 80px;
+    width: 100%;
+    padding: 11px 110px 16px;
+
+    background: #ffffff;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+
+    .logo {
+    }
+
+    .nav-links {
+      width: 145px;
+      margin-top: 18px;
+    }
+
+    .search-field {
+      width: 400px;
+      height: 40px;
+      margin-top: 9px;
+
+      background: #ffffff;
+      border: 1px solid #dadada;
+      border-radius: 4px;
+
+      input {
+        padding: 11px 0 11px 14px;
+        width: 100%;
+
+        outline: none;
+        border: none;
+      }
+
+      .icon {
+        img {
+          padding: 12px 18px 11px;
+        }
+      }
+    }
+
+    .cl-us {
+      width: 210px;
+
+      .course-list {
+        margin-top: 18px;
+      }
+      .user {
+        margin-top: 13px;
+
+        .wishlist {
+          position: relative;
+          margin: 7px 10px 0;
+
+          .no-fav {
+            position: absolute;
+            top: -5px;
+            right: -3px;
+            width: 10px;
+            height: 10px;
+
+            font-size: 7px;
+            text-align: center;
+            background: #188ff7;
+            color: #ffffff;
+            border-radius: 50%;
+          }
+        }
+
+        .cart {
+          position: relative;
+          margin: 7px 10px 0 0;
+
+          .order-list {
+            position: absolute;
+            top: -5px;
+            right: -3px;
+            width: 10px;
+            height: 10px;
+
+            font-size: 7px;
+            text-align: center;
+            background: #188ff7;
+            color: #ffffff;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+}

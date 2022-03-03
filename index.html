@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/course.css">
+    <!-- Stylesheet ends here -->
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Font ends here -->
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="flex flex-jc-sb">
+                <div class="logo"><img src="./assets/logo.svg" alt=""></div>
+                <div class="nav-links flex flex-jc-sb txt-lg ">
+                    <li><a class="col-bl" href="">Home</a></li>
+                    <li><a class="col-bl" href="">Browse</a></li>
+                </div>
+                <div class="search-field flex flex-jc-sb">
+                    <input type="text" placeholder="What do you want to learn?">
+                    <div class="icon">
+                        <img src="./assets/search.svg" alt="">
+                    </div>
+                </div>
+                <div class="cl-us flex flex-jc-sb">
+                    <div class="course-list">
+                        <a class="col-lb txt-lg" href="">My Courses</a>
+                    </div>
+                    <div class="user flex ">
+                        <div class="wishlist">
+                            <img src="./assets/favorites.svg" alt="">
+                            <div class="no-fav ">1</div>
+                        </div>
+                        <div class="cart">
+                            <img src="./assets/shopping-cart.svg" alt="">
+                            <div class="order-list">2</div>
+                        </div>
+                        <div class="profile"><img src="./assets/Oval 2.1.svg" alt=""></div>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="course">
+                <h1 class="course--head col-bl txt-xlg">My Courses</h1>
+                <div class="course--link">
+                    <ul class="flex flex-jc-sb">
+                        <li><a class="col-bl txt-xl" href="">Subscribed Courses</a></li>
+                        <li><a class="col-bl txt-xl" href="">Favorites</a></li>
+                        <li><a class="col-bl txt-xl" href="">Watch History</a></li>
+                    </ul>
+                </div>
+                <div class="line"></div>
+                <div class="course--stsk flex">
+                    <div class="status">
+                        <div class="status--text">
+                            Status
+                        </div>
+                        <div class="check-box">
+                            <input type="checkbox" name="progress" id="progress">
+                            <label for="progress">In progress</label>
+                            <input type="checkbox" name="completed" id="completed">
+                            <label for="completed">Completed</label>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skills--text">
+                            Skills
+                        </div>
+                        <div class="flex">
+                            <div class="skills--con txt-md">
+                                Fashion Designing
+                            </div>
+                            <div class="skills--con txt-md">
+                                Fashion Designing
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course--video-con flex">
+                    <div class="video flex">
+                        <img src="./assets/Rectangle.svg" alt="" class="thumnail">
+                        <div class="video--info">
+                            <div class="status-cp txt-md col-lb">COMPLETED</div>
+                            <div class="info col-bl">
+                                Become a fashion professional (Part 2)
+                            </div>
+                            <div class="creator txt-sm col-bl">Debby james, Fashion expert</div>
+                        </div>
+                    </div>
+                    <div class="video flex">
+                        <img src="./assets/Rectangle (1).svg" alt="" class="thumnail">
+                        <div class="video--info">
+                            <div class="status-ip txt-md col-bl">LESSON 9 OF 12</div>
+                            <div class="info col-bl">
+                                Fashion Patters - A stylish way to look great
+                            </div>
+                            <div class="creator txt-sm col-bl">Debby james, Fashion expert</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+    </div>
+</body>
+
+</html>
